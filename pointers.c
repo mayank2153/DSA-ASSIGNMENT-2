@@ -1,10 +1,10 @@
 #include <stdio.h>
-#include<math.h>
+#include<stdlib.h>
 
 void update(int *a,int *b) {
-    
+    int temp = *a;
     *a=(*a)+(*b);
-    *b=abs((*a)-(*b));
+    *b=abs(temp-(*b));
    // Complete this function    
 }
 
